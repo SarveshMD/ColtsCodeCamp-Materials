@@ -1,0 +1,89 @@
+/* 
+
+* {
+  color:  teal;
+}
+
+*/
+
+a {
+	color: pink;
+}
+
+h2 {
+	font-size: 40px;
+	color: purple;
+}
+
+.icon {
+	color: red;
+	font-size: 30px;
+}
+
+img {
+	width: 300px;
+}
+
+#logo {
+	width: 80px;
+}
+
+h1,
+h2 {
+	color: pink;
+}
+
+#logo,
+img,
+.icon {
+	border: 2px solid red;
+}
+
+#navbar li {
+	display: inline;
+}
+
+h2 + p {
+	color: orangered;
+}
+
+p > i {
+	font-size: 30px;
+	color: steelblue;
+}
+
+input[type="password"] {
+	border: 2px solid green;
+}
+
+a[href^="#"] {
+	color: lavender;
+}
+
+input[checked] {
+	width: 100px;
+}
+
+a:hover {
+	color: purple;
+}
+
+ol .icon:hover {
+	color: yellow;
+}
+
+input:focus {
+	border: 1px solid magenta;
+	outline: none;
+}
+
+footer li:nth-of-type(2n) {
+	background-color: teal;
+}
+footer li:nth-of-type(2n + 1) {
+	background-color: yellow;
+}
+
+footer li:first-of-type {
+	background-color: orange;
+}

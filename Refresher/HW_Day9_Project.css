@@ -1,0 +1,39 @@
+nav ul li {
+	display: inline;
+	color: red;
+	padding: 0px 10px;
+	border-right: 1px solid black;
+}
+nav ul li:last-of-type {
+	border: none;
+}
+img {
+	height: 200px;
+	width: 300px;
+	margin: 0px 10px;
+	padding: 5px;
+	background-color: hsl(50, 94%, 52%);
+	border-right: 4px solid hsl(0, 100%, 50%);
+}
+img:hover {
+	background-color: cyan;
+}
+#register-form {
+	width: 400px;
+	border-top: 5px solid hsl(230, 19%, 37%);
+	margin-top: 20px;
+}
+#register-form input {
+	display: block;
+	width: 400px;
+	height: 30px;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+}
+#register-form button {
+	display: block;
+	width: 400px;
+	height: 30px;
+	background-color: steelblue;
+	color: white;
+}

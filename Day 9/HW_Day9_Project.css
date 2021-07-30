@@ -1,0 +1,62 @@
+/*
+THE ONLY PROPERTIES YOU NEED:
+- display
+- border properties
+- margin properties
+- padding properties
+- width & height
+- background-color
+- color
+- box sizing
+*/
+
+li {
+	display: inline;
+	padding: 0 6px 0 5px;
+	margin: 0;
+	border-right: 1px solid black;
+}
+
+nav ul li:last-child {
+	border: none;
+}
+
+img {
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	padding: 3px;
+	background-color: hsl(40, 100%, 50%);
+	box-sizing: border-box;
+	border-right: 3px solid hsl(0, 100%, 50%);
+}
+
+img:hover {
+	background-color: cyan;
+	border-color: hsl(300, 100%, 50%);
+}
+
+form#register-form {
+	display: inline-block;
+	border-top: 5px solid purple;
+}
+
+input[type="text"] {
+	margin-top: 0;
+}
+
+form input {
+	margin: 10px 0;
+	display: block;
+	height: 25px;
+	width: 300px;
+}
+
+button {
+	height: 30px;
+	width: 308px;
+	font-size: 20px;
+	color: white;
+	background-color: mediumpurple;
+	border: none;
+}
